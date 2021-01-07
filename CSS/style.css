@@ -1,20 +1,38 @@
 body{
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
+    padding:0;margin: 0;
 }
 h1 span{
     color: #ffa500;
 }
-.top-banner .half-width{
+h1,h2,h3,h4,h5,h6{
+    margin: 20px;
+}
+p{
+    font-size: 23px;
+    margin: 25px;
+}
+section{
+    height: 500px;
+}
+.top-banner{
+    background-image: url("../Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.dream-area{
+    background-image: url("../Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: inherit;
+}
+.half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
     margin-top: 5%;
 }
-.top-banner .half-width p{
-    font-size: 23px;
-}
+
 .top-banner .half-width h3{
     font-size: 22px
 }
@@ -28,4 +46,5 @@ h1 span{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    margin: 25px;
 }
