@@ -6,15 +6,24 @@ body{
 h1 span{
     color: #ffa500;
 }
-h1,h2,h3,h4,h5,h6{
-    margin: 20px;
+
+h1,h3{
+    margin-left: 20px;
+    font-size: 40px;
 }
+h3{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
 p{
     font-size: 23px;
     margin: 25px;
+    color: dimgrey;
 }
 section{
     height: 500px;
+    bottom: 150px;
 }
 .top-banner{
     background-image: url("../Images/top-banner.png");
@@ -23,7 +32,7 @@ section{
 .dream-area{
     background-image: url("../Images/dream-bg.png");
     background-repeat: no-repeat;
-    background-position: inherit;
+    background-position: 100% 100%;
 }
 .half-width{
     width: 40%;
