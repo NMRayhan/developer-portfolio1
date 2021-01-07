@@ -67,6 +67,7 @@ section{
 .experience-area div{
     box-shadow: 1px 1px 10px 1px #888888;
     height: 70%;
+    border-radius: 5px;
 }
 #full-stc{
     border-left: 7px solid;
