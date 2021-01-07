@@ -7,7 +7,7 @@ h1 span{
     color: #ffa500;
 }
 
-h1,h3{
+h1{
     margin-left: 20px;
     font-size: 40px;
 }
@@ -18,11 +18,11 @@ h3{
 
 p{
     font-size: 23px;
-    margin: 25px;
+    margin-left: 20px;
     color: dimgrey;
 }
 section{
-    height: 500px;
+    height: 610px;
     bottom: 150px;
 }
 .top-banner{
@@ -33,6 +33,11 @@ section{
     background-image: url("../Images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: 100% 100%;
+}
+.experience-area{
+    background-image: url("../Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
 }
 .half-width{
     width: 40%;
@@ -56,4 +61,29 @@ section{
     color: white;
     font-weight: 700;
     margin: 25px;
+}
+.experience-area .half-width h3{
+    color: #ffa500;
+}
+.experience-area>h1{
+    margin-bottom: -50px;
+}
+.experience-area div{
+    box-shadow: 1px 1px 10px 1px #888888;
+    height: 70%;
+}
+#full-stc{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    top: 50px;
+    font-size: 20px;
 }
