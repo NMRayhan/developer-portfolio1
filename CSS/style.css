@@ -1,0 +1,31 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+}
+h1 span{
+    color: #ffa500;
+}
+.top-banner .half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 5%;
+}
+.top-banner .half-width p{
+    font-size: 23px;
+}
+.top-banner .half-width h3{
+    font-size: 22px
+}
+.half-width img{
+    width: 100%;
+}
+.anchor_btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
